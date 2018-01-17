@@ -1,0 +1,60 @@
+header{
+	background-color:black;
+	padding:15px;
+	
+}
+a{
+	color:white;
+	text-decoration: none;
+}
+.form{
+	margin-top:150px;
+	margin-left:350px;
+	margin-right:350px;
+	border-style: solid ;
+	padding-bottom: 50px;
+	padding-top:50px;
+	border-color:orange;
+	
+}
+
+h3{
+	text-align: center;
+	color:blue;
+
+}
+li{
+	text-transform:uppercase;
+	float:left;
+	display:block;
+	
+	padding :16px 16px;
+
+
+}
+ul{
+	margin-left:250px;
+}
+#nav{
+	width:100%;
+	background-color:purple;
+	height:40px;
+	margin-top:70px;
+
+}
+#main{
+	float:left;
+height:200px;
+width:20%;
+ border:1px solid;
+}
+ 
+ .card{
+ 	float:left;
+ 	height:200px;
+ 	width:20%;
+ 	margin-left:50px;
+ 	box-shadow: 9px 4px 8px 0 rgba(5,0,5,0.2);
+
+ 	
+ }
