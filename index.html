@@ -3,6 +3,11 @@
    <head>
    	<meta name="viewport"content="width=device-width", initial scale="1.0">
    	<link rel="stylesheet" type="text/css" href="css/style.css">
+   	<link rel ="stylesheet" type="text/css" href="css/960.css">
+   	<link rel="stylesheet" type ="text/css" href="css/reset.css">
+   	<link rel ="stylesheet" type="text/css" href="css/text.css">
+   	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   	
    	  <title> Art Gallery</title>
    </head>
    <body>
@@ -10,24 +15,35 @@
    	  <a href="form.html"> Sign up </a>
       
    	 </header>
-   	<div>
+   	<div class="container_12">
+   		<div class="grid_3">
+   		</div>
+   		<div class="navv">
+   		<div class="grid_10">
    	 	<ul>
 
-   	 		<li>HOME</li>
-   	 		<li> About us</li>
-   	 		<li> Art</li>
-   	 		<li>Artist</li>
-   	 		<li> Exhibition</li>
-   	 		<li>Contact us</li>
-   	 	</ul></div>
+   	 		<li style="font-size:20px;">HOME</li>
+   	 		<li style="font-size:20px;"> About us</li>
+   	 		<li style="font-size:20px;"> Art</li>
+   	 		<li style="font-size:20px;">Artist</li>
+   	 		<li style="font-size:20px;"> Exhibition</li>
+   	 		<li style="font-size:20px;">Contact us</li>
+   	 	</ul>
+   	 </div>
+   	 </div>
+   	 <div class ="grid_2">
+   	 	<input type="text" name="search" placeholder="Search" id="inp">
+   	 	
+   	 </div>
+   	</div>
    	 	<div id ="nav"></div>
    	 	<div>
    	 		<p style="color:navy;margin-left:15px;font-size:20px;font-weight: 10px;">Art Works</p>
    	 		<p style="margin-left:15px;">Showing 1-9 of 58 results</p>
    	 	 </div>
-   	 	 
-   	 	 
-<div id="main">
+   	 	 <div class="container_12">
+   	 	 <div class="main">
+<div class="grid_3">
 	<p align="center"> Categoris</p>
 	<hr/>
 	<hr/>
@@ -35,27 +51,151 @@
 	<input type="checkbox" name="painting" value="painting" > Paintings(55)<br/><br/>
 	<input type="checkbox" name="painting" value="painting" > sculpture(40)
 </div>
-<div class="card">
+</div>
+
+
+	<div class="grid_3">
 	<img src="images/pic1.jpg" alt="" style="width:100%;"/>
 	<div class="container">
 		<h4> INR 2600000</h4>
 	</div>
+</div>
 	
-	</div>
-	<div class="card">
+	
+	<div class="grid_3">
 	<img src="images/pic2.jpg" alt="" style="width:100%;"/>
 	<div class="container">
 		<h4> INR 2600000</h4>
 	</div>
 	
 	</div>
-	<div class="card">
+	<div class="grid_3">
 	<img src="images/pic3.jpg" alt="" style="width:100%;height:189px;"/>
 	<div class="container">
 		<h4> INR 2600000</h4>
 	</div>
-	<
+	
+   	 	</div>
+   	 </div>
    	 	
+   	 	<div class="container_12">
+   	 	 <div class="main">
+<div class="grid_3">
+	<p align="center"> Style</p>
+	<hr/>
+	<hr/>
+	<div id="cstyle">
+	<input type="text" name="search" placeholder="Search by name"/>
+</div>
+	
+	
+	<input type="checkbox" name="painting" value="painting" > ABSTRACT<br/><br/>
+	<input type="checkbox" name="painting" value="painting" > LANDS
+</div>
+</div>
+
+	<div class="grid_3">
+	<img src="images/pic4.jpg" alt="" style="width:100%;"/>
+	<div class="container">
+		<h4> INR 2600000</h4>
+	</div>
+</div>
+	
+	
+	<div class="grid_3">
+	<img src="images/pic5.jpg" alt="" style="width:100%;"/>
+	<div class="container">
+		<h4> INR 2600000</h4>
+	</div>
+	
+	</div>
+	<div class="grid_3">
+	<img src="images/pic6.jpg" alt="" style="width:100%;height:189px;"/>
+	<div class="container">
+		<h4> INR 2600000</h4>
+	</div>
+	
+   	 	</div>
+   	 </div>
+   	 <div class="return">
+
+   	 <div class="container_12">
+   	 	<div class="grid_4">
+   	 		<img id="img"  src="images/marker.png"/>
+   	 		<p id="track">track your orders</p>
+
+   	 	</div>
+   	 	<div class="grid_4">
+   	 		<img id="img" src="images/free.png"/>
+   	 		<p id="track"> free and easy returns</p>
+   	 	</div>
+   	 	<div class="grid_4">
+   	 		<img id="img" src="images/cross.png"/>
+   	 		<p id="tt">online cancellation</p>
+   	 	</div>
+
+   	 </div>
+   	</div>
+   	 <div class="footer">
+   	 	<div class="container_12">
+
+   	 		<div class="grid_2">
+   	 			<p id="foo">Categories</p>
+   	 			<p id="fo">Collection</p>
+   	 			<p id="fo">Masterpiece</p>
+   	 			<p id="fo">Deal</p>
+   	 			<p id="fo">gennext</p>
+   	 		 <p id="fo">Exibition</p>
+   	 		</div>
+   	 		<div class="grid_2">
+   	 			<p id="foo"> Site &nbsp;Links</p>
+   	 			<p id="fo">Artist</p>
+   	 			<p id="fo">about</p>
+   	 			<p id="fo">events</p>
+   	 			<p id="fo">nextgen</p>
+   	 		
+   	 		
+   	 		</div>
+   	 		<div class="grid_2">
+   	 			<p id="foo">Other&nbsp; Links</p>
+   	 			<p id="fo">news</p>
+   	 			<p id="fo">press</p>
+   	 			<p id="fo">photogallery</p>
+   	 			<p id="fo">vidio<p>
+   	 		</div>
+   	 		<div class="grid_2">
+   	 			<p id="foo">help</p>
+   	 			<p id="fo">privacy &nbsp;</p>
+   	 			<p id="fo">terms&nbsp;</p>
+   	 			<p id="fo">refund&nbsp;</p>
+   	 			<p id="fo">associates</p>
+   	 			
+   	 
+  
+   	 		</div>
+   	 		<div class="grid_2">
+   	 			<p id="foo"> Associate&nbsp; Links</p>
+   	 			
+   	 			<p id="fo">artec</p>
+   	 			<p id="fo">talk&nbsp;</p>
+   	 			<p id="fo">legecy</p>
+   	 			
+   	 		
+   	 		</div>
+   	 		<div class="grid_2">
+   	 			<p id="foo"> Social</p>
+   	 			<a href="#" class="fa fa-facebook"></a>
+                 <a href="#" class="fa fa-twitter"></a>
+                  <a href="#" class="fa fa-google"></a>
+   	 		</div>
+   	 	</div>
+   	 </div>
+   	 		
+   	 		
+   	 		
+
+   	 	
+ 
    	
    </body>
    </html>
