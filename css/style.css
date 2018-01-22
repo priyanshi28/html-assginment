@@ -114,6 +114,9 @@ width:235px;
 
  border:1px solid;
 }
+.line_1{
+	padding-bottom: 10px;
+}
 .overlayimg{
 	position:relative;
 	width:20%;
