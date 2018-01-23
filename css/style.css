@@ -3,12 +3,18 @@ header{
 	padding:15px;
 	
 }
+/* modal container */
+.register{
+   border-radius:15px;
+
+}
 .register_link{
   text-decoration:none;
   display:block;
   padding:15px;
-  color:white;
+  color:black;
   transition:color 1000ms;
+  font-weight: bold;
 
 }
 .register_link:hover{
@@ -20,14 +26,13 @@ header{
   height:100%; 
   position:fixed;
   pointer-events: none;
-  
   opacity:0;
   pointer-events: none;
   transition :all 500ms ease;
 }
 .modal{
   width:350px;
-  height:450px;
+  height:400px;
   margin:auto;
   position:absolute;
   top:0px;
@@ -38,11 +43,14 @@ header{
   border: 2px solid #222;
   padding:20px;
   box-shadow: black;
-  z-index: -1;
+
+
 }
 .model_container:target{
   opacity:1;
   pointer-events: auto;
+  z-index:1;
+
 }
 .model_container > div{
   transform: translate(0px,-50px);
@@ -50,12 +58,13 @@ header{
 }
 .modal_heading{
   width:100%;
-  
   display:block;
   margin-bottom:30px;
   color:yellow;
   padding:10px;
   box-sizing:border-box;
+  font-size:20px;
+text-align:center;
 }
 #valuef{
   margin-bottom: 15px;
@@ -65,7 +74,7 @@ header{
   border-radius: 5px;
   height:50px;
   border:0px;
-  font-size:11px;
+  font-size:20px;
   text-align: center;
 }
 .btnregister{
@@ -73,9 +82,12 @@ header{
   color:white;
   font-size:15px;
   margin-top:10px;
+  border-radius:15px;
+  margin-left:150px;
+
 }
 .close{
-  color:white;
+  color:yellow;
   position:absolute;
   border:2px solid #333;
    padding :7px 9px 11px 9px;
@@ -179,19 +191,58 @@ li.dropdown {
 height:200px;
 width:235px;
 
- border:1px solid;
+ border:2px solid;
+ border-radius: 5px;
+}
+#grid_content{
+  color:orange;
+  font-weight:bold;
+  font-size:20px;
 }
 .line_1{
 	padding-bottom: 10px;
 }
 .overlayimg{
 	position:relative;
-	width:20%;
+	width:220px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 #cardimg{
 	width:220px;
 	height:220px;
 }
+.content{
+  width:220px;
+  
+}
+.card_heading{
+  font-size:16px;
+  text-align: center;
+  text-transform:uppercase;
+  color:  #FFA500;
+  padding-top:10px;
+}
+.p_content{
+  font-size:14px;
+  font-weight: bold;
+  text-align:center;
+  color:purple;
+  text-transform: uppercase;
+}
+.icons{
+
+color:orange;
+font-size:20px;}
+.buy_now{
+  border-radius:10px;
+  color:purple;
+  font-size:15px;
+  font-weight:bold;
+  margin-right:10px;
+}
+
+
+
 .overlay{
   position:absolute;
   top: 0;
@@ -202,11 +253,13 @@ width:235px;
   width: 220px;
   opacity: 0;
   transition: .5s ease;
-  background-color: #008CBA;
+  background-color: grey;
 }
 .overlayimg:hover .overlay {
-  opacity: 1;
+  opacity: .8;
+
 }
+
 .text {
   color: white;
   font-size: 20px;
@@ -217,21 +270,38 @@ width:235px;
   -ms-transform: translate(-50%, -50%);
   text-align: center;
 }
+.line_2{
+  margin-top:15px;
+}
+.pagination {
+    display: inline-block;
+    margin-top:40px;
+    margin-bottom:40px;
+    margin-left: 350px;
+}
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+
+}
+
+.pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
 
 .navv{
 	margin-top:20px;
 	padding-bottom:0px;
 }
  
- .card{
- 	float:left;
- 	height:200px;
- 	width:20%;
- 	margin-left:50px;
- 	box-shadow: 9px 4px 8px 0 rgba(5,0,5,0.2);
-
- 	
- }
+ 
  .footer{
  	background-color:black;
  }
@@ -242,7 +312,10 @@ width:235px;
  	padding-top: 10px;
  	font-weight:bold;
  	padding-bottom: 10px;
- 	text-shadow:2px 2px  grey;
+  margin-top:30px;
+  font-family: "Times New Roman";
+
+ 	
  }
  #fo{
  	color:white;
@@ -299,4 +372,8 @@ float:left;
 	text-transform:uppercase;
 	
 
+}
+#social_links{
+  color:white;
+  text-decoration: none;
 }
