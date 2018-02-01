@@ -273,6 +273,7 @@ font-size:20px;}
 .line_2{
   margin-top:15px;
 }
+/*
 .pagination {
     display: inline-block;
     margin-top:40px;
@@ -294,7 +295,7 @@ font-size:20px;}
     color: white;
 }
 
-.pagination a:hover:not(.active) {background-color: #ddd;}
+.pagination a:hover:not(.active) {background-color: #ddd;}*/
 
 .navv{
 	margin-top:20px;
