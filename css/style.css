@@ -1,105 +1,9 @@
+
+/* header*/
 header{
-	background-color:black;
+	background-color:purple;
 	padding:15px;
 	
-}
-/* modal container */
-.register{
-   border-radius:15px;
-
-}
-.register_link{
-  text-decoration:none;
-  display:block;
-  padding:15px;
-  color:black;
-  transition:color 1000ms;
-  font-weight: bold;
-
-}
-.register_link:hover{
-  color:black;
-}
-/*modal */
-.model_container{
-  width:100%;
-  height:100%; 
-  position:fixed;
-  pointer-events: none;
-  opacity:0;
-  pointer-events: none;
-  transition :all 500ms ease;
-}
-.modal{
-  width:350px;
-  height:400px;
-  margin:auto;
-  position:absolute;
-  top:0px;
-  bottom:0px;
-  right:0px;
-  left:0px;
-  background:black;
-  border: 2px solid #222;
-  padding:20px;
-  box-shadow: black;
-
-
-}
-.model_container:target{
-  opacity:1;
-  pointer-events: auto;
-  z-index:1;
-
-}
-.model_container > div{
-  transform: translate(0px,-50px);
-
-}
-.modal_heading{
-  width:100%;
-  display:block;
-  margin-bottom:30px;
-  color:yellow;
-  padding:10px;
-  box-sizing:border-box;
-  font-size:20px;
-text-align:center;
-}
-#valuef{
-  margin-bottom: 15px;
-  padding:10px;
-  width:100%;
-  box-sizing:border-box;
-  border-radius: 5px;
-  height:50px;
-  border:0px;
-  font-size:20px;
-  text-align: center;
-}
-.btnregister{
-  background-color:red;
-  color:white;
-  font-size:15px;
-  margin-top:10px;
-  border-radius:15px;
-  margin-left:150px;
-
-}
-.close{
-  color:yellow;
-  position:absolute;
-  border:2px solid #333;
-   padding :7px 9px 11px 9px;
-   text-decoration: none;
-   top:-20px;
-   right:-20px;
-   border-radius: 50%;
-   transition: background 500ms;
-}
-.close:hover{
-  background:#444;
-  cursor:;
 }
 
 h3{
@@ -107,6 +11,7 @@ h3{
 	color:blue;
 
 }
+/*for navigation bar */
 .navigation{
 	padding-top: 10px;
 }
@@ -134,7 +39,7 @@ li a, .dropbtn {
 }
 
 li a:hover, .dropdown:hover .dropbtn {
-    background-color: 	#F8F8FF;
+    background-color: 	red;
 }
 
 li.dropdown {
@@ -173,6 +78,7 @@ li.dropdown {
 	width:100%;
 
 }
+/* end of navgation css */
 #heading{
 	color:navy;
 	margin-left:15px;
@@ -200,6 +106,7 @@ width:235px;
   font-weight:bold;
   font-size:20px;
 }
+/* css in cards first row */
 .line_1{
 	padding-bottom: 10px;
 }
@@ -242,7 +149,7 @@ font-size:20px;}
   margin-right:10px;
 }
 
-
+/* overlay in cars */
 
 .overlay{
   position:absolute;
@@ -260,6 +167,7 @@ font-size:20px;}
   opacity: .8;
 
 }
+/* text style in cards */
 
 .text {
   color: white;
@@ -271,6 +179,7 @@ font-size:20px;}
   -ms-transform: translate(-50%, -50%);
   text-align: center;
 }
+/* for second row */
 .line_2{
   margin-top:15px;
 }
@@ -303,7 +212,7 @@ font-size:20px;}
 	padding-bottom:0px;
 }
  
- 
+ /*for footer */
  .footer{
  	background-color:black;
  }
@@ -329,6 +238,7 @@ font-size:20px;}
  	font-weight:bold;
 
  }
+ /* end footer css */
  #cstyle{
  	margin-bottom:10px;
  }
@@ -348,6 +258,7 @@ font-size:20px;}
     -webkit-transition: width 0.4s ease-in-out;
     transition: width 0.4s ease-in-out;
 }
+/* image in cards */
 
 #img{
 height:50px;
@@ -356,6 +267,7 @@ padding-top:5px;
 padding-bottom:5px;
 float:left;
 }
+/*
 #track{
 	padding-top:10px;
 	padding bottom:5px;
@@ -375,7 +287,99 @@ float:left;
 	
 
 }
+*/
+/* for social links in footer */
 #social_links{
   color:white;
   text-decoration: none;
 }
+/* css for cards */
+.card-title{
+  font-size: 1.5rem;
+  font-family:Georgia, serif;
+  color:purple;
+  text-align: center;
+  text-transform: uppercase;
+}
+.card-text{
+  font-size: 1rem;
+  font-family: serif;
+  font-weight: bold;
+  text-align: center;
+}
+/* end */
+/* media query for font awasome */
+.fa-heart{
+  color:red;
+}
+
+@media (max-width: 576px)
+{
+  .fa{
+    font-size:1.2rem;
+  }
+}
+.fa-comment{
+  color:blue;
+}
+.fa-eye{
+  color:#FF9C33;
+}
+}
+/*end */
+/* start carousel */
+@media (max-width: 576px)
+{
+  .caro-img{
+    height:400px;
+    width:200px;
+    display:block;
+  }
+}
+/*media query for carousel */
+@media (min-width: 576px) and (max-width: 767px) { 
+  .caro-img{
+    height:200px;
+    width:200px;
+    display:block;
+  }
+  
+ }
+ @media (min-width: 768px) and (max-width: 991px) { 
+  .caro-img{
+    height:300px;
+    width:300px;
+    display:block;
+  }
+
+  }
+  @media (min-width: 992px) and (max-width: 1199px) { 
+    .caro-img{
+    height:400px !important;
+    width:400px;
+    display:block;
+  }
+   }
+   @media (min-width: 1200px) { 
+    .caro-img{
+    height:400px;
+    width:400px;
+    display:block;
+  }
+}
+  /* end carousel */
+  
+/* zoom effect for cards */
+.zoom {
+    transition: transform .2s;
+    
+    margin: 0 auto;
+}
+
+.zoom:hover {
+    
+    
+    transform: scale(1.1); 
+}
+
+
